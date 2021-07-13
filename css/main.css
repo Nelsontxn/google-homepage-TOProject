@@ -79,16 +79,31 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: .5em .2em 2em .2em;
-
+    justify-content: center;
+    padding: .5em .2em .2em .2em;
+    width:580px;
+    border: 0.1px solid #edeef0;
+    border-radius: 30px;
+}
+.search-icon{
+    opacity: 0.5;
+    width: 20px;
+    height: auto;
 }
 
+.google-searchbar:hover{
+    border-color: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
 .search-bar-box{
-    border-color: rgb(126, 125, 125);
+    border:none;
     padding-left: 1em;
-    border-radius: 15px;
+    width: 90%;
+    font-size: 1.6rem;
 }
-
+.search-bar-box:hover{
+    border:none;
+}
 .language-buttons{
     display:flex;
     flex-direction: row;
